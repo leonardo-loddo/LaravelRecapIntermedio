@@ -13,7 +13,7 @@
         {{-- Navbar --}}
         <x-navbar />
         {{-- Page Content --}}
-        <main class="container">
+        <main class="container min-vh-100">
             {{$slot}}
         </main>
         {{-- Footer --}}
